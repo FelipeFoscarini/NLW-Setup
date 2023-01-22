@@ -17,6 +17,8 @@ header {
 
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
 }
 
 button {
@@ -37,30 +39,30 @@ button {
   line-height: 125%;
 }
 
-form{
-   display: flex;
+form {
+  display: flex;
 
-   padding: 0 48px;
+  padding: 182px 48px 48px;
+  width: fit-content;
 }
 
-.habits{
-   display: flex;
-   flex-direction: column;
-   margin-top: 60px;
+.habits {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
 
-   gap: 24px;
+  gap: 24px;
 }
 
-.habit{
-   width: 64px;
-   height: 64px;
-   
+.habit {
+  width: 64px;
+  height: 64px;
 
-   font-size: 32px;
+  font-size: 32px;
 
-   align-items: center;
-   justify-content: center;
-   display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .days{
@@ -69,19 +71,19 @@ form{
    gap: 48px;
 }
 
-.day{
-  display:flex;
+.day {
+  display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.day div{
-   margin-bottom: 8px;
+.day div {
+  margin-bottom: 8px;
 
-   font-family: 'roboto Mono';
-   font-weight: 600;
-   font-size: 20px;  
-   text-align: center;
+  font-family: "roboto Mono";
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
 }
 
 input {
@@ -100,4 +102,10 @@ input {
 input:checked {
   background: #8b5cf6;
   border: 2px solid #a78bfa;
+}
+
+@media (max-width: 570px) {
+  button div{
+    display: none;
+  }
 }
