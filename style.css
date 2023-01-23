@@ -65,10 +65,9 @@ form {
   display: flex;
 }
 
-.days{
-   display: flex;
-   margin-left: 32px;
-   gap: 48px;
+.days {
+  display: flex;
+  margin-left: 32px;
 }
 
 .day {
@@ -105,7 +104,7 @@ input:checked {
 }
 
 @media (max-width: 570px) {
-  button div{
+  button div {
     display: none;
   }
 }
