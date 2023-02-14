@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  
 }
 
 button {
@@ -68,6 +69,7 @@ form {
 .days {
   display: flex;
   margin-left: 32px;
+  gap: 24px;
 }
 
 .day {
